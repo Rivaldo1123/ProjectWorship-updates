@@ -1,0 +1,39 @@
+# This is a binary-only release feed. Release ASSETS are attached to GitHub
+# Releases, not committed to the tree. This .gitignore is a safety net so that
+# application source, build output, secrets, and church data can never be
+# accidentally committed here. Do not remove these rules.
+
+# Application source / project layout (must live only in the private source repo)
+src/
+tests/
+scripts/
+electron.vite.config.*
+tsconfig*.json
+package.json
+package-lock.json
+node_modules/
+
+# Build output / installers (attach to a Release instead of committing)
+out/
+dist/
+*.exe
+*.msi
+*.nupkg
+*.blockmap
+
+# Secrets, keys, credentials
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.keystore
+
+# Church data, backups, logs, databases
+*.db
+*.sqlite
+*.sqlite3
+backups/
+logs/
+workspaces/
