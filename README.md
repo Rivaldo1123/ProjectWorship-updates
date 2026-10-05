@@ -14,7 +14,7 @@ those archives stay small and public-safe.
 Published only as **GitHub Release assets** (not committed to the default branch):
 
 - Windows installer files (`Project Worship-<version>-setup.exe`)
-- Update metadata (`latest.yml`)
+- Update metadata (`alpha.yml` for the current prerelease channel)
 - Blockmap / differential-update files (`*.exe.blockmap`)
 - Release notes / version information
 
@@ -31,9 +31,9 @@ Published only as **GitHub Release assets** (not committed to the default branch
 Releases are built from the **private** `ProjectWorship` source repository and
 published here (electron-builder is configured with
 `publish.repo: ProjectWorship-updates`). Development and CI never publish from the
-private source repo. As of this writing the app's Update Center is **prepared but
-not yet connected** — no release has been published; this repository is the
-provisioned, empty destination for the first one.
+private source repo. The current public prerelease is the unsigned, controlled
+`v0.1.0-alpha.4` release. `v0.1.0-alpha.5` remains unpublished and must not reuse
+changed bytes after publication.
 
 ---
 
