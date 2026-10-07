@@ -13,7 +13,7 @@ those archives stay small and public-safe.
 
 Published only as **GitHub Release assets** (not committed to the default branch):
 
-- Windows installer files (`Project Worship-<version>-setup.exe`)
+- Windows installer files (`Project-Worship-<version>-setup.exe`)
 - Update metadata (`alpha.yml` for the current prerelease channel)
 - Blockmap / differential-update files (`*.exe.blockmap`)
 - Release notes / version information
