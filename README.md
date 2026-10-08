@@ -32,8 +32,10 @@ Releases are built from the **private** `ProjectWorship` source repository and
 published here (electron-builder is configured with
 `publish.repo: ProjectWorship-updates`). Development and CI never publish from the
 private source repo. The current public prerelease is the unsigned, controlled
-`v0.1.0-alpha.4` release. `v0.1.0-alpha.5` remains unpublished and must not reuse
-changed bytes after publication.
+`v0.1.0-alpha.5` release, published on October 7, 2026. Its installer, blockmap, and
+`alpha.yml` are immutable release assets. Later application-source changes are not
+part of Alpha 5 unless they are built, verified, and published under a new version;
+published tags and assets must never be silently replaced.
 
 ---
 
